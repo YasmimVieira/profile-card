@@ -8,13 +8,29 @@ html {
 
 body {
     background: var(--dark-cyan);
-    background-image: url(../images/bg-pattern-bottom.svg);
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+.bg-top {
+    width: 63%;
+    position: fixed;
+    top: -67px;
+    left: -15vw;
+    height: 110%;
+}
+
+.bg-bottom {
+    width: 23%;
+    position: fixed;
+    bottom: -16vh;
+    right: -7vw;
+}
+
 main {
+    height: 97vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
 }
