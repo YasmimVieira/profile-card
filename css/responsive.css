@@ -1,0 +1,15 @@
+@media(max-width: 425px) {
+    .c-profile {
+        width: 100%;
+    }
+
+    .c-profile-header__image--clip {
+        top: 17%;
+        left: 30%;
+    }
+
+    .c-profile-section {
+        width: 50%;
+    }
+}
+

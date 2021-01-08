@@ -12,17 +12,17 @@ body {
 }
 
 .bg-top {
+    height: 56%;
     width: 63%;
     position: fixed;
     top: -67px;
     left: -15vw;
-    height: 110%;
 }
 
 .bg-bottom {
-    width: 30%;
+    width: 53%;
     position: fixed;
-    bottom: -16vh;
+    bottom: -3vh;
     right: -7vw;
 }
 
