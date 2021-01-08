@@ -1,0 +1,24 @@
+.c-profile {
+    width: 30%;
+    height: 60vh;
+    background: var(--white);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-profile-header {
+    background-image: url(../images/bg-pattern-card.svg);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.c-profile-header__image--clip {
+    clip-path: circle(45%);
+    border: 2px solid var(--white);
+}

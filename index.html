@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/card.css">
+  <title>Card profile</title>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+  <main>
+    <article class="c-profile">
+      <header class="c-profile-header">
+        <img src="./images/image-victor.jpg" alt="Foto de perfil" class="c-profile-header__image--clip">
+      </header>
 
-  80K
-  Followers
+      <section class="c-profile-section">
+        <div class="c-profile-section__title">
+          <h1>Victor Crest</h1>
+          <h3>26</h3>
+        </div>
+        <h4 class="c-profile-section__subtitle">London</h4>
+      </section>
 
-  803K
-  Likes
+      <hr />
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <footer class="c-profile-footer">
+        <div class="c-profile-footer-content">
+          <p class="c-profile-footer-content__title">80k</p>
+          <p class="c-profile-footer-content__subtitle">Followers</p>
+
+          <p class="c-profile-footer-content_title">803k</p>
+          <p class="c-profile-footer-content__subtitle">Likes</p>
+
+          <p class="c-profile-footer-content_title">1.4k</p>
+          <p class="c-profile-footer-content__subtitle">Photos</p>
+        </div>
+      </footer>
+    </article>
+  </main>
+
 </body>
+
 </html>
